@@ -11,6 +11,7 @@ jobs:
     steps:
       - checkout
       - node/install
+        node-version: '16.13'
       - aws-cli/setup
       - eb/setup
       - run:
