@@ -10,8 +10,8 @@ jobs:
       - image: cimg/base:stable
     steps:
       - checkout
-      - node/install
-        node-version: '16.13'
+      - node/install:
+          node-version: '16.13'
       - aws-cli/setup
       - eb/setup
       - run:
