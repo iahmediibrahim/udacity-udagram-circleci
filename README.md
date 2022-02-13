@@ -1,5 +1,5 @@
 # Udagram
-[![Build Status](https://app.circleci.com/github/iahmediibrahim/udacity-udagram-circleci)](https://app.circleci.com/github/iahmediibrahim/udacity-udagram-circleci)
+[![Build Status](https://circleci.com/gh/iahmediibrahim/udacity-udagram-circleci.svg?style=svg)](https://circleci.com/github/iahmediibrahim/udacity-udagram-circleci)
 
 This project is part of the Udacity FullStack JavaScript nanodegree. The code was given as a starter project and the task was to employ and adapt the code to get it working and hosted on AWS.
 
