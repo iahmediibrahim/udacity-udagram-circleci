@@ -32,3 +32,11 @@ jobs:
       - run:
           name: Deploy Front-End
           command: npm run frontend:deploy
+workflows:
+  udacity-udagram-circleci:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only:
+                - master
