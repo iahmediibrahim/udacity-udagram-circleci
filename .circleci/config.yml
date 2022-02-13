@@ -35,7 +35,7 @@ jobs:
 workflows:
   udacity-udagram-circleci:
     jobs:
-      - deploy:
+      - build:
           filters:
             branches:
               only:
